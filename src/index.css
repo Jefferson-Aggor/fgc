@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    scroll-behavior: smooth;
+}
+input,textarea{
+    @apply w-full px-2 py-3 text-gray-600 border-solid border-2 rounded-sm mb-5;
+}
+.icon{
+    @apply text-4xl my-8 hover:text-blue-700 hover:cursor-pointer 
+}
+
+.btn{
+    @apply px-3 py-4 rounded-sm  border-4 border-solid border-transparent bg-white hover:bg-black hover:border-white hover:text-white font-bold uppercase hover:shadow-md
+}
+
+.btn-secondary{
+    @apply inline-block py-2 px-3 font-bold rounded-md;
+}
+
+.nav-links{
+    @apply font-bold cursor-pointer hover:text-yellow-700
+}
+
+/* .card{
+    @apply  overflow-hidden shadow-sm  object-contain hover:cursor-pointer;
+} */
+
+.overlay-bg{
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.7) 52%, rgba(0,0,0,0.95) 100%), url("./assets/img/bg2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-bg{
+    background: linear-gradient(to left, rgba(255,255,255,0.9) , rgba(255,255,255,1) , rgba(255,255,255,1), rgba(255,255,255,0.9)), url("./assets/img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.latest-bg{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8) , rgba(0, 0, 0,1) , rgba(0, 0, 0,1), rgba(0, 0, 0,0.8)), url("./assets/img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upcoming-bg{
+    background: linear-gradient(to left, rgba(255,255,255,0.9) , rgba(255,255,255,1) , rgba(255,255,255,1), rgba(255,255,255,0.9)), url("./assets/img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.about{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0,0.5) , rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("./assets/img/bg3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.media{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0,0.5) , rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("./assets/img/media.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pastsermons-bg{
+    background: linear-gradient(to left, rgba(73, 72, 72, 0.9) , rgba(83, 81, 81, 0.9) , rgba(77, 77, 77, 0.9), rgba(100, 100, 100, 0.9)), url("./assets/img/bg4.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prayer{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0,0.5) , rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("./assets/img/prayer.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.youth{
+    background: linear-gradient(to left, rgba(97, 58, 58, 0.5) , rgba(206, 36, 36, 0.5) , rgba(124, 135, 25, 0.5), rgba(60, 16, 94, 0.5)), url("./assets/img/youth-bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.youth h1{
+    font-size: 8rem;
+}
+
+.hayil{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0,0.5) , rgba(0, 0, 0,0.5), rgba(0, 0, 0,0.5)), url("./assets/img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+.hayil h1{
+    font-size: 8rem;
+}

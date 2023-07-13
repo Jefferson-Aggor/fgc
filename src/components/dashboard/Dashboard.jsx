@@ -1,11 +1,15 @@
-import Navbar from "../Navbar"
-import DashboardBody from "./DashboardBody"
+import {Nav, Navbar} from '../index'
 
 export const Dashboard = () => {
   return (
-    <div className="flex">
-        <Navbar/>
-        <DashboardBody/>
+    <div>
+      <Nav/>
+      <div className="flex">
+          <Navbar/>
+
+      </div>
+        
+
     </div>
   )
 }

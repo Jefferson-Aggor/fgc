@@ -5,9 +5,7 @@ export const Nav = () => {
 
   return (
     <div 
-    className= ' flex flex-row justify-between items-center h-10 w-full fixed bg-black p-10 text-white  z-20 opacity-90'
-    
-    >
+    className= ' flex flex-row justify-between items-center h-10 w-full bg-black p-10 text-white  z-20 opacity-90'>
       <div>
          <NavLink to='/' ><img src={Logo} alt="Logo" className='h-48 '/></NavLink> 
       </div>

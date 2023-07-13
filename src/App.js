@@ -1,5 +1,5 @@
 import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} from 'react-router-dom'
-import {Index, About, Media,Prayer,Youth, Hayil, Dashboard} from "./components/index";
+import {Index, About, Media,Prayer,Youth, Hayil, Dashboard, UpdatesIndex} from "./components/index";
 import './App.css'
 
 const router = createBrowserRouter(
@@ -12,6 +12,7 @@ const router = createBrowserRouter(
         <Route path='/youth' element={<Youth/>}/>
         <Route path='/hayil-ladies' element={<Hayil/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
+        <Route path='/dashboard/updates' element={<UpdatesIndex/>}/> 
     </Route>
   )
   )

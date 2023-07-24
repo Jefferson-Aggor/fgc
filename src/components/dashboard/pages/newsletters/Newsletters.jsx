@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BiAddToQueue, BiArrowBack } from 'react-icons/bi'
 import {
     Nav, Navbar, UserBar, DataTable,
-    TinyMCE
+    // TinyMCE
 } from '../../../index'
 
 export const Newsletters = () => {
@@ -42,8 +42,8 @@ export const Newsletters = () => {
 
                                 <div>
                                     <label htmlFor="content" className='required'>Content</label>
-                                    {/* <textarea name='content' id='content' rows={10} required onChange={(e) => logger(e)}></textarea> */}
-                                    <TinyMCE />
+                                    <textarea name='content' id='content' rows={10} required onChange={(e) => logger(e)}></textarea>
+                                    {/* <TinyMCE /> */}
                                 </div>
                                 <div>
                                     <label htmlFor="attachment">Add an Attachment

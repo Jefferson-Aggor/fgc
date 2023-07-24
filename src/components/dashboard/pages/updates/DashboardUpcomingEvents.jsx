@@ -1,7 +1,7 @@
 
 import { BsCalendar2Event } from 'react-icons/bs'
 
-export const DashboardUpcomingEvents = () => {
+export const DashboardUpcomingEvents = ({ update_type }) => {
 
   return (
     <div>
@@ -13,7 +13,7 @@ export const DashboardUpcomingEvents = () => {
 
         <div className="grid">
           <form action="" method="post" className='w-1/2'>
-
+            <input type="text" name="update_type" value={update_type} className='hidden' />
             <div className='grid grid-cols-1 md:grid-cols-1 gap-2'>
               <label htmlFor="announcement_title">Title</label>
               <input

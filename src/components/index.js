@@ -2,6 +2,12 @@ export * from './utils/Nav';
 export * from "./utils/Footer"
 export * from "./utils/GeneralHeader";
 export * from "./utils/JoinUs";
+export * from "./utils/Newsletter"
+export * from "./utils/UserBar"
+export * from "./utils/DataTable"
+export * from "./utils/TinyMce"
+export * from "./utils/Alerts"
+export * from "./utils/Snackbar"
 
 // export * from "./utils/Template"
 
@@ -34,10 +40,11 @@ export * from "./ministries/youth/YouthContent";
 export * from "./ministries/hayil/Hayil";
 
 //Dashboard
-export * from "./Navbar" 
+export * from "./Navbar"
 export * from "./dashboard/Dashboard"
 export * from "./dashboard/pages/updates/UpdatesIndex"
 export * from "./dashboard/pages/updates/Announcements"
 export * from "./dashboard/pages/updates/UpdateUpdatesUi"
 export * from "./dashboard/pages/updates/News"
 export * from "./dashboard/pages/updates/DashboardUpcomingEvents"
+export * from "./dashboard/pages/newsletters/Newsletters"

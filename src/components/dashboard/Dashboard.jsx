@@ -1,14 +1,13 @@
-import {Nav, Navbar} from '../index'
+import { Nav, Navbar } from '../index'
 
 export const Dashboard = () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <div className="flex">
-          <Navbar/>
-
+        <Navbar />
       </div>
-        
+
 
     </div>
   )

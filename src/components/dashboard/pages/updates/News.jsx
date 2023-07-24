@@ -1,6 +1,6 @@
 import { FaRegNewspaper } from 'react-icons/fa'
 
-export const News = () => {
+export const News = ({ update_type }) => {
   return (
     <div className='py-10'>
       <div className="flex items-center justify-center mb-10 space-x-2">
@@ -10,7 +10,7 @@ export const News = () => {
 
       <div className="grid">
         <form action="" method="post" className='w-1/2'>
-
+          <input type="text" name="update_type" value={update_type} className='hidden' />
           <div className='grid grid-cols-1 md:grid-cols-1 gap-2'>
             <label htmlFor="announcement_title">Title</label>
             <input type="text" name="title" id="announcement_title" className='' />

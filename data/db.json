@@ -1,0 +1,54 @@
+{
+    "updates": [
+        {
+            "id": "1",
+            "title": "Lorem 1",
+            "update_type": "upcoming_events",
+            "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis culpa earum quas quo! Maxime, voluptas corrupti eos illum corporis maiores cum libero, autem, fugit perspiciatis consectetur nisi! Debitis, incidunt.",
+            "startTime": "9:30 am",
+            "endTime": "11:00 am",
+            "date": "20/01/2024",
+            "image": "https://i0.wp.com/theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png?w=1200&ssl=1"
+        },
+        {
+            "id": "2",
+            "title": "Lorem 2",
+            "update_type": "announcements",
+            "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis culpa earum quas quo! Maxime, voluptas corrupti eos illum corporis maiores cum libero, autem, fugit perspiciatis consectetur nisi! Debitis, incidunt.",
+            "time": "9:30 am",
+            "date": "1/02/2023"
+        },
+        {
+            "id": "3",
+            "title": "Lorem 3",
+            "updateType": "news",
+            "description": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis culpa earum quas quo! Maxime, voluptas corrupti eos illum corporis maiores cum libero, autem, fugit perspiciatis consectetur nisi! Debitis, incidunt.",
+            "time": "9:30 am",
+            "date": "12/12/2023",
+            "image": "https://i0.wp.com/theperfectroundgolf.com/wp-content/uploads/2022/04/placeholder.png?w=1200&ssl=1"
+        }
+    ],
+    "newsletter": [
+        {
+            "firstname": "Jefferson",
+            "lastname": "Aggor",
+            "email": "aggorjefferson@gmail.com",
+            "contact": "0559305117",
+            "date_joined": "20 July 2023"
+        },
+        {
+            "firstname": "Nana Kwame",
+            "lastname": "d'Addo Wiafe",
+            "email": "nkay@gmail.com",
+            "contact": "0268893242",
+            "date_joined": "25 July 2023"
+        },
+        {
+            "firstname": "Richard",
+            "lastname": "Effah-Agyapong",
+            "email": "richyjnr@gmail.com",
+            "contact": "0508823421",
+            "date_joined": "26 July 2023"
+        }
+    ]
+}
